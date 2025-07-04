@@ -10,6 +10,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Backend is running');
+});
+
 app.use('/auth', authRouter);
 
 const PORT = process.env.PORT || 3000;
