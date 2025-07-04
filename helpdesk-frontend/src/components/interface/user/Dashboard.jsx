@@ -49,16 +49,16 @@ const Dashboard = () => {
             <div className="flex">
                 {/* Sidebar */}
                 <div className="w-50 bg-[#6A6767]/21 min-h-[calc(100vh-60px)] shadow-md relative">
-                    <img src="../../public/Vector.png" className="w-2.5 absolute top-8.5 left-4"/>
+                    <img src="/Vector.png" className="w-2.5 absolute top-8.5 left-4"/>
                     <div className="pt-7 pl-8">
                         <div className="mb-6 flex items-center text-xl cursor-pointer">
-                            <span className="mr-1"><img src="../../public/DashboardLayout.png" className="w-8" /></span> Dashboard
+                            <span className="mr-1"><img src="/DashboardLayout.png" className="w-8" /></span> Dashboard
                         </div>
                         <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/user/new-ticket')}}>
-                            <span className="ml-1 mr-2.5"><img src="../../public/NewTicket.png" className="w-5" /></span> New Ticket
+                            <span className="ml-1 mr-2.5"><img src="/NewTicket.png" className="w-5" /></span> New Ticket
                         </div>
                         <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/user/my-ticket')}}>
-                            <span className="ml-1 mr-2.5"><img src="../../public/TwoTickets.png" className="w-5" /></span> My Ticket
+                            <span className="ml-1 mr-2.5"><img src="/TwoTickets.png" className="w-5" /></span> My Ticket
                         </div>
                     </div>
                 </div>

@@ -49,16 +49,16 @@ const TechDashboard = () => {
             <div className="flex">
                 {/* Sidebar */}
                 <div className="w-50 bg-[#6A6767]/21 min-h-[calc(100vh-60px)] shadow-md relative">
-                    <img src="../../public/Vector.png" className="w-2.5 absolute top-8.5 left-4"/>
+                    <img src="/Vector.png" className="w-2.5 absolute top-8.5 left-4"/>
                     <div className="pt-7 pl-8">
                         <div className="mb-6 flex items-center text-xl cursor-pointer">
-                            <span className="mr-1"><img src="../../public/DashboardLayout.png" className="w-8" /></span> Dashboard
+                            <span className="mr-1"><img src="/DashboardLayout.png" className="w-8" /></span> Dashboard
                         </div>
                         <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/techsupport/my-ticket')}}>
-                            <span className="ml-1 mr-2.5"><img src="../../public/TwoTickets.png" className="w-5" /></span> My Ticket
+                            <span className="ml-1 mr-2.5"><img src="/TwoTickets.png" className="w-5" /></span> My Ticket
                         </div>
                         <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/techsupport/performance')}}>
-                            <span className="ml-1 mr-2.5"><img src="../../public/Performance.png" className="w-5" /></span> Performance
+                            <span className="ml-1 mr-2.5"><img src="/Performance.png" className="w-5" /></span> Performance
                         </div>
                     </div>
                 </div>
@@ -105,13 +105,13 @@ const TechDashboard = () => {
                         <div className="flex flex-col gap-4 flex-1">
                             <div className="bg-[#55D6C2] flex flex-row items-center justify-around min-h-[110px] pt-5 pb-1">
                                 <div className="flex flex-col items-center">
-                                    <img src="/public/soporte-tecnico.png" alt="Technical Support" className="w-16" />
+                                    <img src="/soporte-tecnico.png" alt="Technical Support" className="w-16" />
                                     <div className="text-xl font-medium mt-1 text-[#05386B]">3</div>
                                     <div className="font-medium">Technical</div>
                                     <div className="font-medium">Supports</div>
                                 </div>
                                 <div className="flex flex-col items-center">
-                                    <img src="/public/techno2.png" alt="Operation Team" className="w-16" />
+                                    <img src="/techno2.png" alt="Operation Team" className="w-16" />
                                     <div className="text-xl font-medium mt-1 text-[#05386B]">4</div>
                                     <div className="font-medium">Operation</div>
                                     <div className="font-medium">Team</div>

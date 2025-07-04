@@ -9,16 +9,16 @@ const NewTicket = () => {
         <div className="flex">
             {/* Sidebar */}
             <div className="w-50 bg-[#6A6767]/21 min-h-[calc(100vh-60px)] shadow-md relative">
-                <img src="../../public/Vector.png" className="w-2.5 absolute top-21.5 left-4"/>
+                <img src="/Vector.png" className="w-2.5 absolute top-21.5 left-4"/>
                 <div className="pt-7 pl-8">
                     <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/user/dashboard')}}>
-                        <span className="mr-1"><img src="../../public/DashboardLayout.png" className="w-8" /></span> Dashboard
+                        <span className="mr-1"><img src="/DashboardLayout.png" className="w-8" /></span> Dashboard
                     </div>
                     <div className="mb-6 flex items-center text-xl cursor-pointer">
-                        <span className="ml-1 mr-2.5"><img src="../../public/NewTicket.png" className="w-5" /></span> New Ticket
+                        <span className="ml-1 mr-2.5"><img src="/NewTicket.png" className="w-5" /></span> New Ticket
                     </div>
                     <div className="mb-6 flex items-center text-xl cursor-pointer" onClick={() => {navigate('/user/my-ticket')}}>
-                        <span className="ml-1 mr-2.5"><img src="../../public/TwoTickets.png" className="w-5" /></span> My Ticket
+                        <span className="ml-1 mr-2.5"><img src="/TwoTickets.png" className="w-5" /></span> My Ticket
                     </div>
                 </div>
         </div>
@@ -87,7 +87,7 @@ const NewTicket = () => {
                                         style={{ height: "100%" }}
                                     />
                                     <button type="button" className="absolute bottom-3 right-2 bg-[#55D6C2] rounded-lg p-1 hover:cursor-pointer">
-                                        <img src="../../public/Clip.png" alt="Attach" className="w-3 my-1 mx-2" />
+                                        <img src="/Clip.png" alt="Attach" className="w-3 my-1 mx-2" />
                                     </button>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ const NewTicket = () => {
                         {/* reCAPTCHA and Submit */}
                         <div className="flex items-center justify-between mt-4">
                             <div>
-                                <img src="../../public/captcha.png" className="w-80"/>
+                                <img src="/captcha.png" className="w-80"/>
                             </div>
                             <button type="submit" className="bg-[#55D6C2] hover:bg-teal-500 text-black font-semibold px-12 py-2 rounded-md transition-colors hover:cursor-pointer">
                                 Submit

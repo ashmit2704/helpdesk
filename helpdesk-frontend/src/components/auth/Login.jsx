@@ -7,7 +7,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
 
     const handleLogin = async () => {
-        const response = await fetch('https://helpdesk-7j6n.onrender.com', {
+        const response = await fetch('https://helpdesk-7j6n.onrender.com/auth/login', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username, password }),

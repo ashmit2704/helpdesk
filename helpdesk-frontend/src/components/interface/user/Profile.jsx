@@ -46,7 +46,7 @@ const Profile = () => {
                     <div className="bg-white rounded-3xl shadow-xl min-w-[340px] max-w-[370px] h-78 p-8 flex flex-col items-center relative">
                         {/* Edit Icon */}
                         <button onClick={() => {navigate('/user/edit-profile')}} className="absolute top-4 right-4 p-1 hover:bg-gray-100 rounded hover:cursor-pointer">
-                            <img src="../../public/edit.png" className="w-5"/>
+                            <img src="/edit.png" className="w-5"/>
                         </button>
                         {/* Avatar */}
                         <div className="w-28 h-28 rounded-full bg-[#C4C4C4] flex items-center justify-center mb-6 ">
