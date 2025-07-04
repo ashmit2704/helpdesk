@@ -1,9 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const {default: mongoose} = require('mongoose');
+require('dotenv').config();
 
 const authRouter = require('./routes/authRouter')
-const DB_PATH = "mongodb+srv://root:root@codehike.ecoyqup.mongodb.net/helpdesk?retryWrites=true&w=majority&appName=codeHike"
+const DB_PATH = process.env.MONGODB_URI;
 
 const app = express();
 app.use(cors());
